@@ -1,0 +1,21 @@
+def add_numbers(num1, num2):
+    # Addition
+    addition_result = num1 + num2
+    return addition_result
+
+def subtract_numbers(num1, num2):
+    # Subtraction
+    subtraction_result = num1 - num2
+    return subtraction_result
+
+# Input numbers
+number1 = float(input("Enter first number: "))
+number2 = float(input("Enter second number: "))
+
+# Calling add_numbers function
+add_result = add_numbers(number1, number2)
+print("Addition result:", add_result)
+
+# Calling subtract_numbers function
+sub_result = subtract_numbers(number1, number2)
+print("Subtraction result:", sub_result)
